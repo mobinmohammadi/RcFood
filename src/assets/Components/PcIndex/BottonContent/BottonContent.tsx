@@ -1,6 +1,12 @@
 import React from "react";
 
-export default function BottonContent() {
+
+type props = {
+  setShowModalAddreas: React.Dispatch<React.SetStateAction<boolean>>;
+  showModalAddreas : boolean
+}
+
+export default function BottonContent({showModalAddreas,setShowModalAddreas} : props) {
   return (
     <div className="flex relative h-[500px]  justify-between w-full items-center">
       <div className="flex flex-col gap-1 pr-6">
@@ -21,6 +27,7 @@ export default function BottonContent() {
                   <use href="#map-svg"></use>
                 </svg>
                 <input
+                onClick={() => setShowModalAddreas(true)}
                   type="text"
                   className="text-md mt-1 outline-0 w-full border-0"
                   placeholder=" ابتدا آدرستان را انتخاب کنید ..."
