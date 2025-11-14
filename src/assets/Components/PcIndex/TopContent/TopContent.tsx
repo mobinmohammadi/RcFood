@@ -22,20 +22,21 @@ export default function LeftContent() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between py-3">
-        <div className=""></div>
-        <div className="flex font-bold bg-secondary-2 text-secondary-3 py-2 px-3 rounded-2xl items-center justify-center text-sm gap-1" >
-          <span>انتخاب آدرس</span>
-          <svg className="w-4 h-4">
-            <use href="#chevron-down"></use>
+      <div className="sm:hidden flex gap-5 flex-col ">
+        <div className="flex justify-between sm:py-3">
+          <div className=""></div>
+          <div className="flex font-bold bg-secondary-2 text-secondary-3 py-2 px-3 rounded-2xl items-center justify-center text-sm gap-1">
+            <span>انتخاب آدرس</span>
+            <svg className="w-4 h-4">
+              <use href="#chevron-down"></use>
+            </svg>
+          </div>
+          <svg className="w-6 h-6">
+            <use href="#shope-basket"></use>
           </svg>
-
         </div>
-        <svg className="w-6 h-6">
-          <use href="#shope-basket"></use>
-        </svg>
+        <SearchTopbar />
       </div>
-      <SearchTopbar/>
     </div>
   );
 }
