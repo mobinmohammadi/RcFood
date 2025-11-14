@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import BottonContent from "./BottonContent/BottonContent";
 import TopContent from "./TopContent/TopContent";
 import SelectMap from "../Index/SelectMap/SelectMap";

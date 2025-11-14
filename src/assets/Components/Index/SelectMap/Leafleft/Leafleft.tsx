@@ -3,16 +3,13 @@ import {
   TileLayer,
   Marker,
   Popup,
-  useMap,
-  useMapEvent,
   useMapEvents,
   ZoomControl,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import type { LatLngTuple } from "leaflet";
 import L from "leaflet";
 
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import SearchCity from "../SearchCity/SearchCity";
 
 type position = {
