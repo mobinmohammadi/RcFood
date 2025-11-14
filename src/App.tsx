@@ -1,5 +1,4 @@
 import { useRoutes } from 'react-router-dom'
-import Home from './assets/Pages/Home/Home'
 import routes from './Routes'
 
 function App() {
