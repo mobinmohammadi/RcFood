@@ -2,7 +2,7 @@ import Home from './assets/Pages/Home/Home'
 
 function App() {
   return (
-    <div>
+    <div className='px-2 m-auto'>
       <Home/>
     </div>
   )

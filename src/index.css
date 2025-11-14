@@ -40,9 +40,12 @@
     --font-Dana-Bold : Dana-Bold;
     --font-Morabba : Morabba;
     --font-Morabba-Bold : Morabba-Bold;
+
     --color-primary : #F9FAFB;
     --color-primary-2 : #EBEDF0;
     --color-secondry : #FF00A6;
+    --color-secondary-2 : rgb(255, 237, 237);
+    --color-secondary-3 : rgb(189, 0, 3)
     
 }
 

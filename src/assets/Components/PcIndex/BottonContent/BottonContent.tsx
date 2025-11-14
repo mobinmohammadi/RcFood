@@ -42,9 +42,10 @@ export default function BottonContent({setShowModalAddreas} : props) {
           </div>
         </div>
       </div>
-      <div className=" absolute left-0 bottom-0 w-[50%] h-full ">
-        <img className="h-full w-full" src="/Images/Header/header.png" alt="" />
+      <div className=" absolute left-0 bottom-0  w-[50%] h-full ">
+        <img className="h-full w-full hidden lg:flex" src="/Images/Header/header.png" alt="" />
       </div>
+
     </div>
   );
 }
