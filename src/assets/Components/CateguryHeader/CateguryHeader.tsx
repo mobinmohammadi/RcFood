@@ -20,7 +20,7 @@ export default function CateguryHeader() {
     },
     {
       img: "https://cdn.snappfood.ir/uploads/images/review-app/icons/count/service-bakery.png",
-      title: "نونوایی",
+      title: "نانوایی",
     },
     {
       img: "https://cdn.snappfood.ir/uploads/images/review-app/icons/count/service-fruit.png",
@@ -31,8 +31,8 @@ export default function CateguryHeader() {
       title: "پروتئین",
     },
     {
-      svg: "#more-svg",
-      title: "بیشتر",
+      svg: "#ellipsis-horizontal",
+      title: "همه دسته ها",
     },
   ];
 
