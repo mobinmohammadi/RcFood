@@ -62,7 +62,7 @@ export default function RestaurantCategories() {
       <div className={` flex sm:hidden items-center gap-3`}>
         <div
           className={`${
-            !scrolled ? "opacity-100 visible rotate-0 " : "opacity-0 rotate-45 w-10 overflow-hidden max-w-10 truncate  invisible"
+            !scrolled ? "opacity-100 visible rotate-0 " : "opacity-0 rotate-45 w-10 overflow-hidden max-w-2 truncate  invisible"
           } transition-md text-center duration-500`}
         >
           <CategoriesTitle title="دسته بندی های رستوران" />
