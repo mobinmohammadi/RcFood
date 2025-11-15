@@ -1,7 +1,8 @@
-import SearchTopbar from "../PcIndex/TopContent/SearchTopbar/SearchTopbar";
+import SearchTopbarMobile from "../PcIndex/TopContent/SearchTopbarMobile/SearchTopbarMobile";
 
 export default function Search() {
   const locationPage = window.location.pathname;
+
 
   return (
     <div>
@@ -9,10 +10,10 @@ export default function Search() {
         <div className="flex justify-between sm:py-3">
           {locationPage == "/search" ? (
             <div className="flex gap-2 items-center">
-              <svg className="w-5 h-5">
+              <svg onClick={() => history.back()} className="w-5 h-5">
                 <use href="#arrow-right"></use>
               </svg>
-              <span className="max-w-50 truncate">
+              <span className="max-w-50 x:max-w-full truncate sm:truncate-0">
                 جستجو در محصول‌ها‌ و فروشگاه‌ها
               </span>
             </div>
@@ -34,10 +35,9 @@ export default function Search() {
           </svg>
         </div>
 
-        <SearchTopbar />
-        <div className="w-full h-48">
-            <img className="w-full h-full" src="https://cdn.snappfood.ir/500x500/homepage-banners/dakhl/homepage-banners/banner_image-1-2025-11-12-1830.png" alt="" />
-        </div>
+        <SearchTopbarMobile />
+
+       
       </div>{" "}
     </div>
   );
