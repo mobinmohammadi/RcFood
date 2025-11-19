@@ -116,3 +116,34 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+/* ======================================== */
+
+.butom-Custom {
+  position: relative;
+  width: 46px;
+  height: 30px;
+  padding: 2px 0 2px 0;
+  background: #A1A3A7;
+  border-radius: calc(infinity * 1px);
+  cursor: pointer;
+  overflow: hidden; /* خیلی مهم */
+}
+
+/* افکت نوار سفید */
+.butom-Custom::before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 90%;
+  background: white;
+  border-radius: 100%;
+  right : 2px;
+  top: 50%;
+  transform:  translateY(-50%);
+  transition: width 0.15s;
+}
+
+
+
