@@ -15,7 +15,7 @@ export default function Profile() {
   return (
     <div className="flex flex-col gap-5">
       <div className=" flex flex-col gap-7">
-        <div className="flex gap-2 items-center fixed bg-white ml-3 w-full h-14 rounded-xs border-t-slate-300 border-t-2 border-b-slate-300 border-b-2">
+        <div className="flex gap-2 items-center pr-3 fixed bg-white ml-3 w-full h-14 rounded-xs border-t-slate-300 border-t-2 border-b-slate-300 border-b-2">
           <div onClick={() => history.back()} className="cursor-pointer">
             <svg className="w-5 h-5">
               <use xlinkHref="#arrow-right"></use>
@@ -23,7 +23,7 @@ export default function Profile() {
           </div>
           <span className="text-base">اطلاعات کاربری</span>
         </div>
-        <div className="flex container-custom items-center justify-center w-full flex-col gap-3 pt-16">
+        <div className="flex container-custom px-1 items-center justify-center w-full flex-col gap-3 pt-16">
           <div className="border-slate-200 flex flex-col gap-1 border-solid border rounded-md px-3 py-2 w-full">
             <label htmlFor="" className="text-slate-400 text-md sm:text-base">
               نام
@@ -84,7 +84,7 @@ export default function Profile() {
         </div>
       </div>
       <div className="h-2 bg-line"></div>
-      <div className=" gap-3">
+      <div className=" gap-3 px-1">
         <span className="text-md text-gray-900 px-3 pb-2">
           تنظیمات ورود به حساب
         </span>
