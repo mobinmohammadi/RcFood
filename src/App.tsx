@@ -5,7 +5,7 @@ function App() {
   const router = useRoutes(routes);
   return (
     <div className="  m-auto h-full">
-      <div className="m-auto mt-4 sm:py-0 h-full">{router}</div>
+      <div className="m-auto  sm:py-0 h-full">{router}</div>
     </div>
   );
 }

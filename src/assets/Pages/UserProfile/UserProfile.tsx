@@ -12,7 +12,7 @@ export default function UserProfile() {
       console.log(localeData);
 
   return (
-    <div className="flex flex-col gap-10 pb-20">
+    <div className="flex flex-col pt-4 gap-10 pb-20">
       <DetailsUser localeData/>
       <div className="h-2 bg-line"></div>
       <UserProfiles localeData />
